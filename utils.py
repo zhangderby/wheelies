@@ -52,6 +52,7 @@ def make_pinwheel(Dpup, Npup, rings, segments_ring1, segment_separation):
     pw[m] = 1
 
     for ring in range(rings):
+
         for seg in range((ring + 1) * NsegR1):
     
             # inner and outer bounds
